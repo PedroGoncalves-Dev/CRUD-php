@@ -24,7 +24,6 @@ if (isset($_GET['id'])) {
 
 $conn->close();
 
-// Redireciona de volta para a lista de usuários após a exclusão
 header("Location: listar_usuarios.php");
 exit();
 ?>

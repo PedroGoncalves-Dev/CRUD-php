@@ -1,8 +1,8 @@
 <?php
-// Incluir o arquivo de conexão
-include 'conexao.php'; // ou use require 'conexao.php';
 
-// Consultar os usuários no banco de dados
+include 'conexao.php'; 
+
+
 $sql = "SELECT id, nome, email, criado_em FROM usuarios";
 $result = $conn->query($sql);
 ?>
